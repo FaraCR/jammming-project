@@ -1,4 +1,5 @@
 import React, {useCallback, useState} from 'react';
+import './SearchBar.css'
 
 function SearchBar(props) {
 

@@ -1,0 +1,13 @@
+.searchResults {
+    border-radius: 10px;
+    width: 30%;
+    height: 30rem;
+    overflow-y: scroll;
+    background-color: rgba(76, 73, 92, 0.5);
+    padding: 0 0.8rem;
+}
+
+.searchResults h2 {
+    font-weight: 400;
+    color: #efefef;
+}

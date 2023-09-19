@@ -1,1 +1,29 @@
+body,
+html,
+#root {
+  height: 100%;
+  background-color: #2d283e;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #efefef;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.mainPlaylist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    gap: 3rem;
+}
+
 
