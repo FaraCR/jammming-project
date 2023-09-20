@@ -10,9 +10,6 @@ function SearchBar(props) {
 
   const { onSearch } = props;
   const handleSearch = useCallback((e) => {
-    console.log("Search button clicked"); // Add this line
-    console.log("Search value:", val);
-    e.preventDefault();
     onSearch(val);
   }, [onSearch, val]);
 
