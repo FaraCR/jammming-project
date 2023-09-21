@@ -1,6 +1,6 @@
 .searchResults {
     border-radius: 10px;
-    width: 30%;
+    width: 24rem;
     height: 30rem;
     overflow-y: scroll;
     background-color: rgba(76, 73, 92, 0.5);
@@ -11,3 +11,9 @@
     font-weight: 400;
     color: #efefef;
 }
+
+@media only screen and (max-width: 520px) {
+    .searchResults {
+      width: 80%;
+    }
+  }
